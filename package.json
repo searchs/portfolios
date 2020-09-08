@@ -3,10 +3,13 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "next"
+    "dev": "next",
+    "build" : "next build",
+    "export" : "next export",
+    "deploy" : "cd out && vercel  --public"
   },
   "keywords": [],
-  "author": "",
+  "author": "Ola Ajibode",
   "license": "ISC",
   "dependencies": {
     "isomorphic-unfetch": "^3.0.0",
